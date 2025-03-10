@@ -6,28 +6,27 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 
 ```json
 {
-  "name": "Ethereum Mainnet",
-  "chain": "ETH",
+  "name": "MagistryChain",
+  "chain": "MCC",
   "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://api.mycryptoapi.com/eth"
+    "https://rpc.magistrychain.com"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "MAGISTRY",
+    "symbol": "MCT",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://ethereum.org",
-  "shortName": "eth",
-  "chainId": 1,
-  "networkId": 1,
-  "icon": "ethereum",
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://magistrychain.com",
+  "shortName": "mcc",
+  "chainId": 12345,
+  "networkId": 12345,
+  "icon": "magistrychain",
   "explorers": [{
-    "name": "etherscan",
-    "url": "https://etherscan.io",
-    "icon": "etherscan",
+    "name": "MagistryChainExplorer",
+    "url": "https://explorer.magistrychain.com",
+    "icon": "magistrychainxplorer",
     "standard": "EIP3091"
   }]
 }
