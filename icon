@@ -1,0 +1,9 @@
+Add an icon for a new chain or explorer.
+[
+  {
+    "url": "ipfs://QmExampleIconCID",
+    "width": 500,
+    "height": 500,
+    "format": "png"
+  }
+]
